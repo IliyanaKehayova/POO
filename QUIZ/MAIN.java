@@ -41,6 +41,7 @@ public class MAIN {
             QUIZ.showQuestionAndResponses(i);
             System.out.print("Votre réponse (1-3 ou nom de la ville) : ");
             String userInput = clavier.nextLine().trim();
+            new TIMER(120);
 
             String chosenAnswer;
 
