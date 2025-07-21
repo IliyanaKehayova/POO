@@ -10,7 +10,7 @@ public class TIMER {
   }
 
     public static void main(String[] args) {
-    new TIMER(60);
+    new TIMER(180);
     System.out.println("StopWatch Started.");
   }
 
